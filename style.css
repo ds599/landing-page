@@ -70,6 +70,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-content: flex-end;
+    padding:50px;
 }
 .random-info-header {
     text-align: center;
@@ -82,7 +83,7 @@ ul {
     text-align: center;
     gap: 50px;
 }
-p {
+.pic-text {
     max-width: 125px;
 }
 .random {
@@ -90,4 +91,28 @@ p {
     border-width: 5px;
     border-color: #3882F6;
     border-radius: 10px;
+}
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7Eb;
+    padding: 130px 300px;
+}
+
+.quotation {
+    font-family: Verdana, sans-serif;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+    margin: 0;
+    padding: 0;
+}
+
+.quote-attribution {
+    text-align: end;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
 }
